@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3073403547443565850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5298019087598429608}
+  - component: {fileID: 6688398207073504382}
+  m_Layer: 0
+  m_Name: AUDIO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5298019087598429608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073403547443565850}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6688398207073504382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073403547443565850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1020b532c6684e2dad89414b1b47be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  sounds:
+  - ID: SeedsPurchased
+    sound: {fileID: 8300000, guid: 8f608f92fdaee984493f32dbba46c725, type: 3}
+  - ID: SoilPurchased
+    sound: {fileID: 8300000, guid: b71417f0f6152424fbfe12483826f1f9, type: 3}
+  - ID: TrellisPurchased
+    sound: {fileID: 8300000, guid: 2790c7b6d9dbdc34f9f5c147f2128657, type: 3}
+  - ID: InsufficientFunds
+    sound: {fileID: 8300000, guid: f6baceb118c576246aa999f616c583ae, type: 3}
+  - ID: MidDayReminder
+    sound: {fileID: 8300000, guid: de996f1107f7a4847b5e52f710ae85e3, type: 3}
+  - ID: ParchmentOpen
+    sound: {fileID: 8300000, guid: 16cfaf7e81b01a542a2b1b5260b48870, type: 3}
+  - ID: ParchmentClose
+    sound: {fileID: 8300000, guid: 7340528b38da74f4db1b7092542c6a95, type: 3}
+  - ID: ClickView
+    sound: {fileID: 8300000, guid: 32a278799c87af74681bf1bf5bc58088, type: 3}
+  - ID: SoldOut
+    sound: {fileID: 8300000, guid: 45b209e4abcb35d4ba448672704a1884, type: 3}
+  - ID: AgingGrapesPhase1
+    sound: {fileID: 8300000, guid: 313aca6416dc1b74aa299c8458832091, type: 3}
+  - ID: AgingGrapesPhase2
+    sound: {fileID: 8300000, guid: 035c807cf5fa5f247aad38ca6532f806, type: 3}
+  - ID: ClickingIntoScene
+    sound: {fileID: 8300000, guid: f0a634ded9c1c7749902cc15c446ba80, type: 3}
+  - ID: ClickingOutOfScene
+    sound: {fileID: 8300000, guid: 32a278799c87af74681bf1bf5bc58088, type: 3}
+  - ID: CollectWine
+    sound: {fileID: 8300000, guid: 566f9a7797d1e2149887e4db04a43ef3, type: 3}
+  - ID: CrushComplete
+    sound: {fileID: 8300000, guid: 9f2138e9a99aee744a4541fe7eefc471, type: 3}
+  - ID: CrushingGrape
+    sound: {fileID: 8300000, guid: 095cf736cf6ba9c499f12ef8c4385c48, type: 3}
+  - ID: DayComplete
+    sound: {fileID: 8300000, guid: 9dbea549bb2b3514ba78ac2532c11a16, type: 3}
+  - ID: DayCycleWind
+    sound: {fileID: 8300000, guid: 9871437e05e31d04fb7dc926e3590b30, type: 3}
+  - ID: GrapesIntoCrusher
+    sound: {fileID: 8300000, guid: 33d970c85ed220b458960fcdc35ac6da, type: 3}
+  - ID: GridHover
+    sound: {fileID: 8300000, guid: e275581d3490bc74ebb9dee5add8bfed, type: 3}
+  - ID: Harvest
+    sound: {fileID: 8300000, guid: 61976c01d57377b4cb4681044bf1b16a, type: 3}
+  - ID: PickUpBottleCastle
+    sound: {fileID: 8300000, guid: 25d82be6a8d5c3a4d8e3d799ffaa119e, type: 3}
+  - ID: Planting
+    sound: {fileID: 8300000, guid: a51501ee31b5a7c48ae51e283afd0971, type: 3}
+  - ID: SellingWine
+    sound: {fileID: 8300000, guid: 45b209e4abcb35d4ba448672704a1884, type: 3}
+  - ID: SoldOutItem
+    sound: {fileID: 8300000, guid: 20ee8b625e2591446b78af59e4031426, type: 3}
+  - ID: ValveOff
+    sound: {fileID: 8300000, guid: 74219da473a48d8499fd0b79b4e5aa94, type: 3}
+  - ID: ValveOn
+    sound: {fileID: 8300000, guid: 0b2567ea5566bee4e913046dd706c99f, type: 3}
+  - ID: VineGrowthComplete
+    sound: {fileID: 8300000, guid: 36efd7434ef794e44bd067a62f145dc8, type: 3}
+  - ID: VineGrowthPhase1
+    sound: {fileID: 8300000, guid: 333b3f468c9f61a47bde9f70d2801f4d, type: 3}
+  - ID: VineGrowthPhase2
+    sound: {fileID: 8300000, guid: ebefaea0db5a06c4d9d6e29c0ca5c426, type: 3}
+  - ID: VineGrowthPhase3
+    sound: {fileID: 8300000, guid: eb3584bca35c74e4eab49fe4bca18e07, type: 3}
+  - ID: VineGrowthPhase4
+    sound: {fileID: 8300000, guid: e5995c69561504849b63077ee0522405, type: 3}
+  - ID: VineGrowthPhase5
+    sound: {fileID: 8300000, guid: ca97d15ea7ab61e449ccdcf70cb4402f, type: 3}
+  - ID: VineGrowthPhase6
+    sound: {fileID: 8300000, guid: 389b7c11da3f5824abb9555f1a04730b, type: 3}
+  - ID: VineTrim
+    sound: {fileID: 8300000, guid: 82f5e3d307c0a914ab9f3e988fb54435, type: 3}
+  - ID: Watering
+    sound: {fileID: 8300000, guid: f0fb109707e354e4b841c1786f9c3271, type: 3}
+  - ID: WaterStream
+    sound: {fileID: 8300000, guid: c520d1ccee6e95049a239919ceab48e6, type: 3}
+  - ID: CastleTheme
+    sound: {fileID: 8300000, guid: 2fd439287c8b1b943bd777687248cd0b, type: 3}
+  - ID: CellarTheme
+    sound: {fileID: 8300000, guid: 017bc62443127864eb94d75b0d0e00d5, type: 3}
+  - ID: MainTheme
+    sound: {fileID: 8300000, guid: 916a0899a59690f42b56f8c6baa1fc74, type: 3}
+  - ID: ShopTheme
+    sound: {fileID: 8300000, guid: 4ea12d0d4dd27164b99ff98cfd1876a4, type: 3}
+  - ID: VineViewTheme
+    sound: {fileID: 8300000, guid: 77fbbb5cd49eab8479b1e69956b49e2b, type: 3}
